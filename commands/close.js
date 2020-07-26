@@ -4,9 +4,9 @@ module.exports.run = async(Client, message, args) =>{
 
      message.delete();
 
-    const categoryID = "735833827339141231";
+    const categoryID = "727580817488085122";
 
-    if(! message.member.roles.cache.has("726202879509266502")) return message.reply("You can't use this command");
+    if(! message.member.roles.cache.has("737068389184438273")) return message.reply("You can't use this command");
 
     if (message.channel.parentID == categoryID) {
         message.channel.delete();
