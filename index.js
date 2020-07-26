@@ -59,7 +59,7 @@ fs.readdir("./commands/", (err, filles) => {
 client.on("ready", async () => {
  
     console.log(`${client.user.username} is online.`);
-    client.user.setActivity(`**CornCraft** | !ticket | !serverinfo  `, { type: "PLAYING" });
+    client.user.setActivity("**CornCraft** | !ticket | !serverinfo  ", { type: "PLAYING" });
  
 });
  
